@@ -1,0 +1,63 @@
+*{
+   margin: 0;
+   padding: 0;
+}
+
+.App{
+    background-color: rgb(133, 130, 130);
+    padding: 0.5rem;
+}
+.Header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+}
+.Header > h1{
+    font-family: cursive;
+}
+.Header > h4{
+    margin:0.8rem;
+}
+
+.Picture{
+    margin: 0.7rem;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.Picture > img{
+    width: 40vw;
+    height: 50vh;
+    margin-top: 1rem;
+}
+.Picture > h3{
+    margin: 0.8rem;
+}
+.Biography{
+    color: #ffffff;
+}
+.Biography > .heading,.quote{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.heading{
+    margin: 1.5rem;
+}
+.quote{
+    flex-direction: column;
+    margin: 1.5rem;
+    font-family: cursive;
+}
+.Biography > p{
+    margin: 0.7rem;
+    font-size: 1.2rem;
+}
+
+
