@@ -36,7 +36,7 @@ class Biography extends React.Component{
                </p>
                  
                  <div className="quote">
-                      <p >I believe in one power, and that is the hand of God. I respect all religions.</p>
+                      <p >" I believe in one power, and that is the hand of God. I respect all religions. "</p>
                      <h5>--Lata Mangeshkar--</h5>
                  </div>
             </div>
